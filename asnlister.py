@@ -4,7 +4,7 @@
 import urllib2
 from bs4 import BeautifulSoup
 
-bgp_he = "http://bgp.he.net/search?search[search]=abbre&commit=Search"
+bgp_he = "http://bgp.he.net/search?search[search]=$1&commit=Search"
 
 print "[+] This program lists out ASN's of Respective country. [+]\n"
 abbre = raw_input("Enter the abbreviation of country: ")
